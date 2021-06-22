@@ -30,7 +30,7 @@ class Feedback(db.Model):
     customer = db.Column(db.String(200))
     dealer = db.Column(db.String(200))
     rating = db.Column(db.Integer)
-    comments = db.Column(db.Text(500))
+    comments = db.Column(db.String(500))
 
     def __init__(self, customer, dealer, rating, comments):
         self.customer = customer
