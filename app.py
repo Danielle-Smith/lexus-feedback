@@ -17,7 +17,7 @@ app = Flask(__name__)
 # uri = os.getenv("DATABASE_URL")  # or other relevant config var
 # if uri.startswith("postgres://"):
 #     uri = uri.replace("postgres://", "postgresql://", 1)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://cdwhhsxswijumf:70328936964976ebc6e9f86adfa25c8fc1bec39bce9a23c26bdfc7250b24acfe@ec2-52-5-247-46.compute-1.amazonaws.com:5432/d232iu7o3nhb84'
+app.config['SQLALCHEMY_DATABASE_URI'] = ''
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
